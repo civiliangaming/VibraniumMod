@@ -1,6 +1,8 @@
 package com.hpm.vibraniummod;
 
+import com.hpm.vibraniummod.item.ModItems;
 import com.mojang.logging.LogUtils;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -29,6 +31,8 @@ public class VibraniumMod
 
         MinecraftForge.EVENT_BUS.register(this);
 
+        ModItems.register(modEventBus);
+
         modEventBus.addListener(this::addCreative);
 
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
@@ -41,6 +45,10 @@ public class VibraniumMod
 
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.VIBRANIUM);
+            event.accept(ModItems.RAW_VIBRANIUM);
+        }
     }
 
     @SubscribeEvent
