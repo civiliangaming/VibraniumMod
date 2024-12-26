@@ -1,6 +1,7 @@
 package com.hpm.vibraniummod;
 
 import com.hpm.vibraniummod.block.ModBlocks;
+import com.hpm.vibraniummod.item.ModCreativeModeTabs;
 import com.hpm.vibraniummod.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -31,6 +32,8 @@ public class VibraniumMod
 
 
         MinecraftForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
