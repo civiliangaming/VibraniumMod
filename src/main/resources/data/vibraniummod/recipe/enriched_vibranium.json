@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc.",
+  "ingredients": [
+    {
+     "item": "minecraft:glowstone"
+    },
+    {
+      "item": "minecraft:glowstone"
+    },
+    {
+      "item": "minecraft:glowstone"
+    },
+    {
+      "item": "minecraft:glowstone"
+    },
+    {
+     "item":"vibraniummod:vibranium"
+    },
+    {
+      "item":"vibraniummod:vibranium"
+    },
+    {
+      "item":"vibraniummod:vibranium"
+    },
+    {
+      "item":"vibraniummod:vibranium"
+    }
+
+],
+  "result": {
+    "count": 4,
+    "id": "vibraniummod:enriched_vibranium"
+  }
+}

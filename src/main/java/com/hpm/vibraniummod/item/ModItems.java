@@ -17,6 +17,12 @@ public class ModItems {
     public static final RegistryObject<Item> VIBRANIUM = ITEMS.register("vibranium",
             () -> new Item(new Item.Properties())
     );
+    public static final RegistryObject<Item> VIBRANIUM_CHUNK = ITEMS.register("vibranium_chunk",
+            () -> new Item(new Item.Properties())
+    );
+    public static final RegistryObject<Item> ENRICHED_VIBRANIUM = ITEMS.register("enriched_vibranium",
+            () -> new Item(new Item.Properties())
+    );
     public static final RegistryObject<Item> RAW_VIBRANIUM = ITEMS.register("raw_vibranium",
             () -> new Item(new Item.Properties())
     );

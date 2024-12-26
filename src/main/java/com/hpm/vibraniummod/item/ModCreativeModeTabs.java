@@ -25,6 +25,8 @@ public class ModCreativeModeTabs {
 
                               output.accept(ModItems.VIBRANIUM.get());
                               output.accept(ModItems.RAW_VIBRANIUM.get());
+                              output.accept(ModItems.VIBRANIUM_CHUNK.get());
+                              output.accept(ModItems.ENRICHED_VIBRANIUM.get());
 
                             })
                             .build());

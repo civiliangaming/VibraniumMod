@@ -52,7 +52,9 @@ public class VibraniumMod
     {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.VIBRANIUM);
+            event.accept(ModItems.VIBRANIUM_CHUNK);
             event.accept(ModItems.RAW_VIBRANIUM);
+            event.accept(ModItems.ENRICHED_VIBRANIUM);
         }
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.VIBRANIUM_BLOCK);

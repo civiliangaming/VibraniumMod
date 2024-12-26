@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc.",
+  "key": {
+
+    "A": {
+      "item": "vibraniummod:raw_vibranium"
+    }
+
+  },
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "vibraniummod:raw_vibranium_block"
+  }
+}
