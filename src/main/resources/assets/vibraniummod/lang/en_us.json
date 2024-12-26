@@ -1,5 +1,7 @@
 {
   "item.vibraniummod.vibranium": "Enriched Vibranium",
   "item.vibraniummod.raw_vibranium": "Raw Vibranium",
-  "block.vibraniummod.vibranium_block": "Block of Enriched Vibranium"
+
+  "block.vibraniummod.vibranium_block": "Block of Enriched Vibranium",
+  "block.vibraniummod.raw_vibranium_block": "Block of Raw Vibranium"
 }

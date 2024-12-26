@@ -18,10 +18,17 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, VibraniumMod.MODID);
 
+
     public static final RegistryObject<Block> VIBRANIUM_BLOCK = registerBlock("vibranium_block",
             ()-> new Block(BlockBehaviour.Properties.of()
                     .strength(6f).requiresCorrectToolForDrops().sound(SoundType.ANVIL)
             ));
+
+    public static final RegistryObject<Block> RAW_VIBRANIUM_BLOCK = registerBlock("raw_vibranium_block",
+            ()-> new Block(BlockBehaviour.Properties.of()
+                    .strength(6f).requiresCorrectToolForDrops().sound(SoundType.COPPER)
+            ));
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
