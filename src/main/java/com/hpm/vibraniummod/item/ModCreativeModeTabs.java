@@ -41,6 +41,8 @@ public class ModCreativeModeTabs {
 
                                 output.accept(ModBlocks.VIBRANIUM_BLOCK.get());
                                 output.accept(ModBlocks.RAW_VIBRANIUM_BLOCK.get());
+                                output.accept(ModBlocks.VIBRANIUM_ORE.get());
+                                output.accept(ModBlocks.DEEPSLATE_VIBRANIUM_ORE.get());
 
                             })
                             .build());

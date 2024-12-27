@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "vibraniummod:vibranium_block",
+    "vibraniummod:raw_vibranium_block",
+    "vibraniummod:vibranium_ore",
+    "vibraniummod:deepslate_vibranium_ore"
+  ]
+}

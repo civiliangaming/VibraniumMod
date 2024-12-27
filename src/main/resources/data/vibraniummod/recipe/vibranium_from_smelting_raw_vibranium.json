@@ -1,13 +1,13 @@
 {
-  "type": "minecraft:blasting",
+  "type": "minecraft:smelting",
   "category": "misc",
   "cookingtime": 200,
-  "experience": 1.0,
+  "experience": 0.125,
   "group": "vibranium",
   "ingredient": {
     "item": "vibraniummod:raw_vibranium"
   },
   "result": {
-    "id": "minecraft:vibranium"
+    "id": "vibraniummod:vibranium"
   }
 }
